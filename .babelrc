@@ -1,0 +1,21 @@
+{
+	presets: [
+		["env", {
+      "targets": {
+        "browsers": ["last 2 versions", "safari >= 7"]
+      },
+      "modules": false
+    }]
+	],
+	plugins: [
+		["transform-runtime", {
+			"helpers": false,
+			"polyfill": false
+		}],
+		"syntax-dynamic-import",
+		"transform-es2015-destructuring",
+		"transform-es2015-parameters",
+		"transform-object-rest-spread",
+    "transform-async-to-generator"
+	]
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>4over Scanner</title>
+		<style>
+		@import url('https://fonts.googleapis.com/css?family=Roboto:500,700i');
+		</style>
+<script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+
+
+	</head>
+	<body>
+		<img src="assets/logo.png" class="logo">
+		<div class=" jobModal  hidden ">
+				<div id="header">
+					
+					<div id="topbar" >
+					</div>
+					<div id="timelineStatus">
+						<!-- <div id="currentStatus">Status: blah</div>
+						<div id="dateBreakdown">Ordered: 11/2 | uploaded: 11/2 | today: 11/3 | turnaround: 224 | due customer: 11/5 | due original 11/5</div> -->		
+					</div>
+				</div>
+				<div class="content">
+					<div id="previews" class="grid-item" >
+					</div>
+					<div id="jobOptions" class="grid-item" >
+					</div>
+					<div id="shippingInfo" class="grid-item" >
+					</div>
+					<div id="jobSpecs" class="grid-item" >
+					</div>
+				</div>
+		</div>
+		<div class="loading hidden">
+			<div class="wrap-loader">
+				<div class="loader">
+					<div class="box"></div>
+					<div class="box"></div>
+					<div class="box"></div>
+					<div class="box"></div>
+					<div class="wrap-text">
+						<div class="text"><span>4</span><span>O</span><span>v</span><span>e</span><span>r</span><span>...</span>
+					</div>
+				</div>
+			</div>
+			<div class="loader-text">wait please</div>
+		</div>
+	</div>
+	<div class="inputContainer">
+		<input type="" name="jobCode" id="jobNumberInput">
+		<button> Scan to get job info</button>
+	</div>
+
+
+
+	<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
